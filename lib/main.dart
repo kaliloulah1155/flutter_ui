@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/project2/UiDismissible.dart';
+import 'package:flutter_ui/projet2/UiDismissible.dart'; //projet2
+import 'package:flutter_ui/projet3/UiFadeImage.dart'; //projet3
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home:UiDismissible(),
+      home:UiFadeImage(),
     );
   }
 }
