@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'projet1/foldingcell.dart';
+import 'package:flutter_ui/project2/UiDismissible.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home:UiFoldingPage(title: 'Flutter : PROJET 1'),
+      home:UiDismissible(),
     );
   }
 }
